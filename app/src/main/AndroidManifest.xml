@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name="pl.lo3.survival.ActivityOne" />
+        <activity android:name="pl.lo3.survival.ActivityPDF" />
     </application>
 
 </manifest>

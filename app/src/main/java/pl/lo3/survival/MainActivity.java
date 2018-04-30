@@ -1,4 +1,4 @@
-package edmt.dev.androidgridlayout;
+package pl.lo3.survival;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.GridLayout;
-import android.widget.GridView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {

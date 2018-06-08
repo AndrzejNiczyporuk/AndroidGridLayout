@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Survival_pl</string>
+    <string name="app_name">Survival_pl</string>  <!-- Ustawienie nazwy aplikacji -->
+    <string name="name_to_set">NAZWA DO WPROWADZENIA</string>  <!-- Ustawienie nagłówek wyświetlany na pierszej stornie-->
+    <string name="group1">Grupa1</string> <!-- Ustawienie pierwszej grupy po wybraniu zostanie wyświetlony plik Grupa1.pdf  -->
+    <string name="group2">Grupa2</string> <!-- Ustawienie drugiej grupy po wybraniu zostanie wyświetlony plik Grupa2.pdf  -->
+    <string name="group3">Grupa3</string> <!-- Ustawienie trzeciej grupy po wybraniu zostanie wyświetlony plik Grupa3.pdf  -->
+    <string name="group4">Grupa4</string> <!-- Ustawienie czwartej grupy po wybraniu zostanie wyświetlony plik Grupa4.pdf  -->
+    <string name="group5">Grupa5</string> <!-- Ustawienie piątej grupy po wybraniu zostanie wyświetlony plik Grupa5.pdf  -->
+    <string name="group6">Grupa6</string> <!-- Ustawienie szóstej grupy po wybraniu zostanie wyświetlony plik Grupa6.pdf  -->
+    <string name="group7">Grupa7</string> <!-- Ustawienie siódmej grupy po wybraniu zostanie wyświetlony plik Grupa7.pdf  -->
+    <string name="group8">Grupa8</string> <!-- Ustawienie ósmej grupy po wybraniu zostanie wyświetlony plik Grupa8.pdf  -->
+    <string name="group9">Grupa9</string> <!-- Ustawienie dziewiątej grupy po wybraniu zostanie wyświetlony plik Grupa9.pdf  -->
+    <string name="group10">Grupa10</string> <!-- Ustawienie dziesiątej grupy po wybraniu zostanie wyświetlony plik Grupa10.pdf  -->
+    <string name="group11">Grupa11</string> <!-- Ustawienie jedenastej grupy po wybraniu zostanie wyświetlony plik Grupa11.pdf  -->
+    <string name="group12">Grupa12</string> <!-- Ustawienie dwunastej grupy po wybraniu zostanie wyświetlony plik Grupa12.pdf  -->
 </resources>

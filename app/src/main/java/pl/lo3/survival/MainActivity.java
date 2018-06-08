@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < mainGrid.getChildCount(); i++) {
             //You can see , all child item is CardView , so we just cast object to CardView
             CardView cardView = (CardView) mainGrid.getChildAt(i);
-            final int finalI = i;
+            final int finalI = i+1;
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                    // Intent intent = new Intent(MainActivity.this,ActivityOne.class);
                     Intent intent = new Intent(MainActivity.this,ActivityPDF.class);
-                    intent.putExtra("info",""+finalI);
+                    intent.putExtra("info","Grupa"+finalI);
                     startActivity(intent);
 
                 }

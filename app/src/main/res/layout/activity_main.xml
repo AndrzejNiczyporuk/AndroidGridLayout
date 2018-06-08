@@ -22,12 +22,12 @@
 
         <TextView
             android:id="@+id/textGrid"
-            android:text="GRID LAYOUT"
-            android:textSize="34sp"
-            android:textColor="@android:color/white"
-            android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/name_to_set"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
 
     </RelativeLayout>
 
@@ -72,13 +72,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group1"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -111,13 +111,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Family"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -153,13 +153,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Lovely"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group3"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -192,13 +192,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group4"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -234,13 +234,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group5"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -273,13 +273,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group6"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -311,13 +311,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group7"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -349,13 +349,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group8"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -387,13 +387,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group9"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -425,13 +425,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group10"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -463,13 +463,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group11"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -501,13 +501,13 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Calendars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group12"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

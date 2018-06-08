@@ -3,6 +3,7 @@ package pl.lo3.survival;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
@@ -14,27 +15,28 @@ import java.util.List;
 
 public class ActivityPDF extends AppCompatActivity implements OnPageChangeListener,OnLoadCompleteListener{
     private static final String TAG = ActivityPDF.class.getSimpleName();
-    public static final String SAMPLE_FILE = "android_tutorial.pdf";
 
     PDFView pdfView;
     Integer pageNumber = 0;
     String pdfFileName;
+    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf);
 
-
+        tv = (TextView)  findViewById(R.id.tv_header);
         pdfView= (PDFView)findViewById(R.id.pdfView);
+
+
         if(getIntent() != null)
         {
-           // pobranie parametru i wyświetelnie odpowiedniej strony
-            String info = getIntent().getStringExtra("info");
-            pageNumber = Integer.parseInt(info);
-
+            pdfFileName = getIntent().getStringExtra("info");
+            tv.setText(pdfFileName);
+            displayFromAsset(pdfFileName+".pdf");
         }
-        displayFromAsset(SAMPLE_FILE);
+
     }
 
     private void displayFromAsset(String assetFileName) {

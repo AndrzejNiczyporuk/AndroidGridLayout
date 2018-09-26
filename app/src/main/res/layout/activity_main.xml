@@ -4,22 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.lo3.survival.MainActivity">
-
-
-
+    tools:context=".MainActivity">
     <LinearLayout
         android:orientation="vertical"
         android:background="@drawable/bg"
         android:weightSum="10"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="wrap_content">
     <RelativeLayout
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-
         <TextView
             android:id="@+id/textGrid"
             android:layout_width="wrap_content"
@@ -28,9 +23,7 @@
             android:text="@string/name_to_set"
             android:textColor="@android:color/white"
             android:textSize="24sp" />
-
     </RelativeLayout>
-
     <GridLayout
         android:id="@+id/mainGrid"
         android:columnCount="2"
@@ -40,11 +33,8 @@
         android:layout_weight="8"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:padding="14dp"
-        >
-
+        android:padding="14dp">
         <!-- Row 1 -->
-
         <!-- Column 1 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -55,23 +45,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/me_time"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/me_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group1"
@@ -79,11 +61,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <!-- Column 2 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -94,23 +73,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/family_time"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/family_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group2"
@@ -118,14 +89,9 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
-
         <!-- Row 2 -->
-
         <!-- Column 1 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -136,23 +102,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/lovely_time"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/lovely_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group3"
@@ -160,11 +118,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <!-- Column 2 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -175,23 +130,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/team_time"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/team_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group4"
@@ -199,14 +146,9 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
-
         <!-- Row 2 -->
-
         <!-- Column 1 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -217,23 +159,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/friends"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/friends"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group5"
@@ -241,11 +175,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <!-- Column 2 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -256,23 +187,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group6"
@@ -280,11 +203,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -294,23 +214,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group7"
@@ -318,11 +230,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -332,23 +241,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group8"
@@ -356,11 +257,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -370,23 +268,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group9"
@@ -394,11 +284,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -408,23 +295,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group10"
@@ -432,11 +311,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -446,23 +322,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group11"
@@ -470,11 +338,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -484,23 +349,15 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
+            app:cardCornerRadius="8dp">
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/calendar"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
                 <TextView
+                    android:drawableTop="@drawable/calendar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/group12"
@@ -508,13 +365,8 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
     </GridLayout>
-
     </LinearLayout>
-
 </ScrollView>
